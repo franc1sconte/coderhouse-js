@@ -1,0 +1,17 @@
+
+*{
+    font-size: 23px;
+}
+
+i{
+    font-size: 40px;
+}
+
+/*Esto arranca sin mostrar, luego interactuando 
+con los eventos cambia el estado de 'none' a 'block'*/
+.formPage{
+    display: none;
+}
+.mostrarContraseñasPage{
+    display: none;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="/Preentrega-2/script.js"></script>
+    <link rel="stylesheet" href="/Preentrega-2/style.css">
+    <title>Preentrega #2</title>
+</head>
+<body>
+    <h1>Generador de contraseñas</h1>
+    <hr>
+    <hr>
+    <div class="bodyPage">
+        <p><i>Francisco Conte</i></p>
+        <p>
+            Ingrese a la sección correspondiente
+            según lo que requiera.
+        </p>
+        <h3>Click aqui para ir al generador de contraseñas</h3>
+        <button id="irGeneradorBtn">→</button>
+    </div>
+    <hr>
+    <div class="formPage">
+        <form id="formDatosPassword">
+            <label for="animal">Ingrese el animal que mas le guste: </label>
+            <input type="text" id="animal" name="animal" placeholder="Canguro" required>
+            <br><br>
+            
+    
+            <label for="color">Ingrese el color que mejor le queda a ese animal: </label>
+            <input type="text" id="color" name="color" placeholder="Amarillo" required>
+            <br><br>
+    
+            <label for="pais">Por ultimo, dime un pais donde pueda encontrar ese animal: </label>
+            <input type="text" id="pais" name="pais" placeholder="Australia" required>
+            <br><br>
+    
+            <button type="submit">Generar</button>
+            <br><br>
+            <button type="reset">Borrar todo</button>
+        </form>
+        <br><br>
+        <button id="volverFormBtn">Volver</button>
+    </div>
+    
+    <div class="listaPage">
+       <h3>Click aqui para ir a tus contraseñas generadas</h3>
+       <button id="irListaContraseñasBtn">→</button>
+    </div>
+
+    <div class="mostrarContraseñasPage">
+        <h3><b>Contraseñas generadas</b></h3>
+        <div id = contenedorContraseñas>
+            <p class="noContraseñas">No tiene contraseñas generadas.</p>
+        </div>
+        <button id="volverListaContraseñasBtn">Volver</button>
+    </div>
+    <hr>
+</body>
+</html>
