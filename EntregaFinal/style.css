@@ -1,0 +1,120 @@
+body {
+    background: linear-gradient(to right, #1856db, #000e4b);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#formDatosPassword {
+    margin: 10px;
+    padding: 10px;
+}
+
+p , label, li{
+    color: white;
+    font-size: 23px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+}
+
+i{
+    font-size: 23px;
+}
+
+hr {
+    box-shadow: 10px black;
+}
+
+/* -- */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4d0606;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 40px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* -- */
+
+.quitarElemento:hover {
+    background-color: #fd0202;
+    cursor: pointer;
+}
+
+.quitarElemento {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+
+#volverListaContraseñasBtn {
+    width: 60px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#volverListaContraseñasBtn:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#irGeneradorBtn:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#volverFormBtn:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#irGeneradorBtn {
+    width: 50px;
+    height: 25px;
+}
+
+#irListaContraseñasBtn:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#irListaContraseñasBtn {
+    width: 50px;
+    height: 25px;
+}
+
+/* -- */
+
+/*Este elemento arranca sin mostrarse por front, luego
+interactuando con los eventos cambia el estado de 'none' a 'block'*/
+.formPage{
+    display: none;
+}
+.mostrarContraseñasPage{
+    display: none;
+}

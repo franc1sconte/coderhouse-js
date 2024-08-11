@@ -1,0 +1,52 @@
+{
+    "0": {
+      "animal": "Perro",
+      "color": "Rojo",
+      "pais": "Argentina"
+    },
+    "1": {
+      "animal": "Gato",
+      "color": "Azul",
+      "pais": "Brasil"
+    },
+    "2": {
+      "animal": "Elefante",
+      "color": "Verde",
+      "pais": "Chile"
+    },
+    "3": {
+      "animal": "León",
+      "color": "Amarillo",
+      "pais": "Perú"
+    },
+    "4": {
+      "animal": "Tigre",
+      "color": "Naranja",
+      "pais": "México"
+    },
+    "5": {
+      "animal": "Caballo",
+      "color": "Violeta",
+      "pais": "Colombia"
+    },
+    "6": {
+      "animal": "Oso",
+      "color": "Negro",
+      "pais": "Uruguay"
+    },
+    "7": {
+      "animal": "Zorro",
+      "color": "Blanco",
+      "pais": "Paraguay"
+    },
+    "8": {
+      "animal": "Conejo",
+      "color": "Gris",
+      "pais": "Ecuador"
+    },
+    "9": {
+      "animal": "Lobo",
+      "color": "Marrón",
+      "pais": "Bolivia"
+    }
+  }
